@@ -43,6 +43,7 @@ a {
     text-decoration: none;
     font: 18px;
     color: #e5e7eb;
+    padding: 20px;
 }
 
 .hero {
@@ -92,7 +93,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    flex-wrap: wrap;
 }
 
 
@@ -101,19 +102,37 @@ button {
     color:#1F2937;
     background-color: white;
     font-weight: 900;
+    margin-bottom: 40px;
 
 }
 
-.img {
+.image-row {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+
 }
 
-.img img {
+.points img {
+    display: flex;
     height: 200px;
     width: 200px;
     border: 2px, solid, #3882f6;
     border-radius: 20px;
+    margin: 10px;
+}
+
+
+
+.points p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    min-width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+    padding: 10px;
 }
