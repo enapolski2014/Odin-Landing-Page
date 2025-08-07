@@ -5,4 +5,8 @@ This is a project I worked on as part of The Odin Project. It was meant to showc
 
 Photo Credits:
 
-Image one by Jens Johnsson
+Image one by Jens Johnsson, pexels.com
+Image two by Guillermo Berlin, pexels.com
+Image three by Micheal King, pexels.com
+Image four by hudsoncrafted, pixabay.com
+Image five by Kait Herzog, unsplash.com
