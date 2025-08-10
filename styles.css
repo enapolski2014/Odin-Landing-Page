@@ -3,7 +3,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     flex-direction: column;
     margin: 0;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 p {
@@ -12,6 +12,8 @@ p {
 
 .header-hero {
     margin-bottom: 40px;
+    min-height: 580px;
+    min-width: fit-content;
 }
 
 .header {
@@ -23,7 +25,8 @@ p {
     font: 24px;
     font-weight: 600;
     padding: 35px;
-    /* padding-bottom: 40px; */
+    padding-bottom: 40px;
+    gap: 10px;
 }
 
 .header h1 {
@@ -52,6 +55,9 @@ a {
     display: flex;
     justify-content: space-around;
     padding-bottom: 40px;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 40px;
 }
 
 .hero .content {
@@ -74,7 +80,7 @@ a {
 
 }
 
-button {
+.content button {
     max-width: fit-content; 
     font-size: 20px;
     padding: 10px 30px;
@@ -86,14 +92,19 @@ button {
 
 #hero {
     width: 450px;
-    height: auto;
+    height: 390.22;
+    flex: 0 0 auto;
+    
 }
 
 .container.two {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    min-height: 520px;
+    min-width: fit-content;
 }
 
 
@@ -112,6 +123,8 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     gap: 100px;
+    margin-bottom: 10px;
+    flex: 1;
 
 }
 
@@ -135,4 +148,36 @@ button {
     height: 200px;
     flex-wrap: wrap;
     padding: 10px;
+}
+
+.container.three {
+    background-color: #e5e7eb;
+    min-height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.testimony {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+    width: 280;
+    gap: 26px;
+}
+
+.quote {
+    font-size: 32px;
+    font-style: italic;
+    color: #1f2937;
+    width: 70vw;
+    padding: 10px;
+
+}
+
+.name {
+    font-size: 26px;
+    font-weight: 800;
+    align-self: flex-end;
 }
