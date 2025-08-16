@@ -3,7 +3,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     flex-direction: column;
     margin: 0;
-    /* width: 100vw; */
+    /* max-width: 100vw; */
     min-width: fit-content;
 }
 
@@ -14,13 +14,13 @@ p {
 .header-hero {
     margin-bottom: 40px;
     min-height: 580px;
-    min-width: fit-content;
+    /* min-width: fit-content; */
     background-color: #1F2937;
 }
 
 .header {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: center;
     background-color: #1F2937;
     color: #e5e7eb;
@@ -39,7 +39,7 @@ p {
 ul {
     display: flex;
     list-style-type: none;
-    gap: 16px;
+    gap: 30px;
     padding: 10px;
     margin: 0px;
 }
@@ -48,13 +48,13 @@ a {
     text-decoration: none;
     font: 18px;
     color: #e5e7eb;
-    padding: 20px;
 }
 
 .hero {
     background-color: #1F2937;
     color: #e5e7eb;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     padding-bottom: 40px;
     flex-wrap: wrap;
@@ -64,10 +64,11 @@ a {
 
 .hero .content {
     display: flex;
+    flex: 1;
     flex-flow: column wrap;
     justify-content: center;
-    height: 400px;
-    width: 600px;
+    min-height: 400px;
+    max-width: 600px;
     align-content: space-around;
     gap: 20px;
 }
@@ -94,8 +95,8 @@ a {
 
 #hero {
     width: 450px;
-    height: 390.22;
-    flex: 0 0 auto;
+    height: 390.22px;
+    flex: 0 1 auto;
     
 }
 
@@ -127,7 +128,7 @@ a {
     width: 100vw;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 100px;
+    /* gap: 50px; */
     margin-bottom: 10px;
     flex: 1;
 
@@ -139,7 +140,7 @@ a {
     width: 200px;
     border: 2px, solid, #3882f6;
     border-radius: 20px;
-    margin: 10px;
+    margin: 0px 30px;
 }
 
 
@@ -150,16 +151,16 @@ a {
     justify-content: center;
     width: 200px;
     min-width: 200px;
-    height: 200px;
+    height: 100px;
     flex-wrap: wrap;
-    padding: 10px;
+    margin: 10px 30px;
 }
 
 .container.three {
     background-color: #e5e7eb;
     min-height: 580px;
 
-    max-width: 100vw;
+    /* max-width: 100vw; */
 
 
 }
